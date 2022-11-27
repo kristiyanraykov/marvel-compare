@@ -7,8 +7,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   const Nav = () => (
-    <nav className='w-full sticky top-0'>
-      <ul className="flex justify-center border-emerald-900 border-b max-w-7xl">
+    <nav className='w-screen sticky top-0'>
+      <ul className="flex justify-center border-emerald-900 border-b">
         <li className="mr-6 text-emerald-500 hover:text-emerald-800">
           <Link href="/">Compare</Link>
         </li>
@@ -25,7 +25,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className='flex flex-col w-full h-full justify-center align-middle m-auto'>
+      <body className='flex flex-col w-screen h-screen justify-between items-center relative'>
         <Nav />
         {children}
         </body>

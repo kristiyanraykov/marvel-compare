@@ -5,7 +5,7 @@ type Props = {};
 
 const Character = (props: Props) => {
   return (
-    <div className='max-w-xs rounded overflow-hidden shadow-lg border-gray-700 border-2 m-auto flex flex-col p-4'>
+    <div className='p-4 max-w-xs rounded overflow-hidden shadow-lg border-emerald-700 border-2'>
       <Image
       className='mx-auto'
         width={100}
